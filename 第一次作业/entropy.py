@@ -247,10 +247,10 @@ def cal_trigram_ch(corpus,count):
 if __name__ == '__main__':
     tra = TraversalFun("./datasets")
     corpus,count = tra.TraversalDir()
-    # cal_unigram(corpus, count)
-    # cal_bigram(corpus,count)
-    # cal_trigram(corpus,count)
-    # cal_unigram_ch(corpus, count)
-    # cal_bigram_ch(corpus,count)
+    cal_unigram(corpus, count)
+    cal_bigram(corpus,count)
+    cal_trigram(corpus,count)
+    cal_unigram_ch(corpus, count)
+    cal_bigram_ch(corpus,count)
     cal_trigram_ch(corpus,count)
 
